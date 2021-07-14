@@ -1,0 +1,33 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+}
+.container {
+	width: 90%;
+	margin: 0px auto;
+	border-bottom-width: 0px;
+	padding: 0px;
+}
+p {
+	margin: 0.5em 0;
+}
+.text-center{
+	text-align: center;
+}
+table.faq-table {
+	border-collapse: collapse;
+	background: antiquewhite;
+	border-width: 0px;
+}
+.faq-table th {
+	background: lightskyblue;
+	text-align: right;
+	width: 200px;
+}
+.faq-table th, .faq-table td {
+	border-style: double;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: black;
+	padding: 3px;
+}
